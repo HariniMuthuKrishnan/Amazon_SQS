@@ -1,0 +1,13 @@
+server:
+  port: 8085
+
+cloud:
+  aws:
+    region:
+      static: ap-south-1
+      auto: false
+    credentials:
+      access-key: ***
+      secret-key: ***
+    end-point:
+      uri: **Queue_Url**
